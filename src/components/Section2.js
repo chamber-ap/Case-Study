@@ -66,7 +66,7 @@ export default function Section2() {
         </div>
 
         <div className="card text-bg-dark col"   style={{margin: '10px',padding: '0px'}}  >
-        <img src={initiative} className="card-img" alt="..."/>
+        <img src={initiative} className="card-img"  alt="..."/>
         <div className="card-img-overlay">
              {/* <h3 className="card-title text-decoration-underline text-center text-black">Initiative</h3> */}
              <Link className="nav-link active" aria-current="page" to="/initiatives" ><h3>Initiatives</h3></Link>

@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 import Navbar from './Navbar'
 import impt from '../image/impactspic.jpg'
 
@@ -26,9 +25,6 @@ function Secb() {
             <li className="list-group-item"><strong>Economic Impacts:</strong> The costs of mitigating and adapting to the impacts of carbon emissions can be significant, affecting not just the energy sector but also agriculture, water resources, and many others.</li>
           </ul>
         </div>
-        
-        <Footer/>
-    
     </>
   )
 }

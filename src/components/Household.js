@@ -64,7 +64,7 @@ function Household() {
 
       <div className="container d-flex my-3" style={{flexDirection: 'row' , borderTop: 'solid black 2px'}} >
         <h4 style={{margin:'30px'}}>Total CO<sub>2</sub> emission (household) : &nbsp; </h4>
-        <h4 style={{border : 'solid black 2px' , textAlign: 'center' , width: '50vh', marginTop: '20px', alignItems: 'center'}}> {2.98*14.5*data2 + 0.83*data} Kg CO<sub>2</sub>/month</h4>
+        <h4 style={{border : 'solid black 2px' , textAlign: 'center' , width: '50vh', marginTop: '20px', }}> {2.98*14.5*data2 + 0.83*data} Kg CO<sub>2</sub>/month</h4>
       </div>
       </div>
       

@@ -17,6 +17,7 @@ import Contact from './components/Contact';
 import Household from './components/Household';
 import Vehicle from './components/Vehicle';
 import Industrial from './components/Industrial';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route exact path='/ev' element={<Secd/>}></Route>
           <Route exact path='/ht' element={<Sece/>}></Route>
           <Route exact path='/initiatives' element={<Secf/>}></Route>
+          <Route exact path='/team' element={<Team/>}></Route>
         </Routes>
       </Router>
     </>

@@ -7,7 +7,7 @@ function Secd() {
     <>
     
         <Navbar/>
-    
+        
     </>
   )
 }
